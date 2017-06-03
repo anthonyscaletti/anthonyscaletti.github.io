@@ -26,6 +26,11 @@ body{
 	width: 70%;
  	margin: 0 auto;
 }
+#name{
+	color: black;
+	font-family: Metamorphous;
+	padding-top: 5%;
+}
 h2, p{
 	color: silver;
 	font-family: Metamorphous;
