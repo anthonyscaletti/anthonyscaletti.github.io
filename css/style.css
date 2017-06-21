@@ -28,12 +28,12 @@ body{
 }
 #name{
 	color: black;
-	font-family: Metamorphous;
+	font-family: Cinzel;
 	padding-top: 5%;
 }
 h2, p{
 	color: silver;
-	font-family: Metamorphous;
+	font-family: Cinzel;
 }
 .project{
 	max-width: 100%;
@@ -45,7 +45,7 @@ u{
 	border-bottom: 5px solid silver;
 }
 .font-roman{
-	font-family: Metamorphous;
+	font-family: Cinzel;
 }
 #twitter, #github, #facebook{
 	max-width: 100%;
@@ -54,5 +54,5 @@ u{
 }
 h4{
 	color: black;
-	font-family: Metamorphous;
+	font-family: Cinzel;
 }
