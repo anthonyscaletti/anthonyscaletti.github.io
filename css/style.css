@@ -1,5 +1,5 @@
 body{
-	background-color: silver;
+	background-color: #E8E8EE;
 }
 .fixed-nav{
 	position: fixed;
@@ -14,7 +14,7 @@ body{
 	max-width: 100%;
 	max-height: 100%;
 	background-color: black;
-	color: silver;
+	color: #E8E8EE;
 }
 #logoImg{
 	max-width: 100%;
@@ -32,7 +32,7 @@ body{
 	padding-top: 5%;
 }
 h2, p{
-	color: silver;
+	color: #E8E8EE;
 	font-family: Cinzel;
 }
 .project{
@@ -42,7 +42,7 @@ h2, p{
 }
 u{
 	text-decoration: none;
-	border-bottom: 5px solid silver;
+	border-bottom: 5px solid #E8E8EE;
 }
 .font-roman{
 	font-family: Cinzel;
