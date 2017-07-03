@@ -21,19 +21,19 @@ body{
   	max-height: 100%;
 }
 #about, #portfolio, #links{
-	background-color: rgb(211,211,211,0.5);
+	background-color: rgb(211,211,211, 0.5);
 	border-radius: 5%;
 	width: 70%;
  	margin: 0 auto;
 }
 #name{
 	color: black;
-	font-family: Cinzel;
+	font-family: Bellefair;
 	padding-top: 5%;
 }
 h2, p{
 	color: black;
-	font-family: Cinzel;
+	font-family: Bellefair;
 }
 .project{
 	max-width: 100%;
@@ -45,7 +45,7 @@ u{
 	border-bottom: 5px solid black;
 }
 .font-roman{
-	font-family: Cinzel;
+	font-family: Bellefair;
 }
 #twitter, #github, #facebook{
 	max-width: 100%;
@@ -54,5 +54,5 @@ u{
 }
 h4{
 	color: black;
-	font-family: Cinzel;
+	font-family: Bellefair;
 }
