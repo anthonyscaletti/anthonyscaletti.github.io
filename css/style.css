@@ -1,58 +1,13 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
 body{
 	background-color: white;
 }
-.fixed-nav{
-	position: fixed;
-	top: 0;
-	left: 0;
-	z-index: 9999;
-	width: 100%;
-	height: 10%;
-	background-color: black;
-}
-.nav-buttons{
-	max-width: 100%;
-	max-height: 100%;
-	background-color: black;
-	color: white;
-}
-#logoImg{
-	max-width: 100%;
-  	max-height: 100%;
-}
-#about, #portfolio, #links{
-	background-color: rgb(211,211,211, 0.5);
-	border-radius: 5%;
-	width: 70%;
- 	margin: 0 auto;
-}
-#name{
+
+h1, p{
 	color: black;
-	font-family: Bellefair;
-	padding-top: 5%;
-}
-h2, p{
-	color: black;
-	font-family: Bellefair;
-}
-.project{
-	max-width: 100%;
-	max-height: 100%;
-	padding: 10%;
-}
-u{
-	text-decoration: none;
-	border-bottom: 5px solid black;
-}
-.font-roman{
-	font-family: Bellefair;
-}
-#twitter, #github, #facebook{
-	max-width: 100%;
-	max-height: 100%;
-	padding: 10% 10% 10% 38%;
-}
-h4{
-	color: black;
-	font-family: Bellefair;
+	font-family: 'Lato', sans-serif;
 }
