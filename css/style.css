@@ -4,7 +4,8 @@
 }
 
 body{
-	background-color: white;
+	margin: 1rem;
+	background-color: #fff;
 }
 
 h1, p{
@@ -21,6 +22,7 @@ input[type=button] {
 	top: 0;
 	position: relative;
 	clip-path: polygon(0 0, 100% 0, 100% 100%, 0 80%);
+	margin-bottom: 10%;
 }
 
 .header::after {
