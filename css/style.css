@@ -4,11 +4,15 @@
 }
 
 body{
-	margin: 1rem;
+	margin: 2rem;
+	background-color: #ebe8e6;
+}
+
+html {
 	background-color: #fff;
 }
 
-h1, p{
+h1, h3, p{
 	font-family: 'Lato', sans-serif;
 }
 
@@ -40,11 +44,10 @@ input[type=button] {
 
 .logo {
 	position: absolute;
-	top: 11%;
-	left: 5%;
-	width: 100px;
-	height: 100px;
-	transform: translate(-50%, -50%);
+	top: 5%;
+	left: 3%;
+	width: 5rem;
+	height: 5rem;
 }
 
 .logoImg {
@@ -87,4 +90,32 @@ input[type=button] {
 	margin: 1rem;
 	padding: 0.75rem 2rem 0.75rem 2rem;
 	border-radius: 1rem;
+}
+
+.compartment {
+	background-color: #fff;
+	margin: 0 15% 5% 15%;
+	padding: 5%;
+	border-radius: 0.5rem;
+}
+
+.compartment-title {
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: 0.1rem;
+	font-size: 1rem;
+	font-weight: 400;
+	display: block;
+}
+
+.bio-text {
+	margin: 10% 15% 0 15%;
+	letter-spacing: 0.07rem;
+	font-size: 1rem;
+	font-weight: 200;
+}
+
+.modern-content {
+	margin: 30%;
+	text-align: center;
 }
