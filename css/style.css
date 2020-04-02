@@ -6,6 +6,7 @@
 body{
 	margin: 2rem;
 	background-color: #ebe8e6;
+	padding-bottom: 0.01rem;
 }
 
 html {
@@ -117,5 +118,12 @@ input[type=button] {
 
 .modern-content {
 	margin: 30%;
+	text-align: center;
+}
+
+.links {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
 	text-align: center;
 }
