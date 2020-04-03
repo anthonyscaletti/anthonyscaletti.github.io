@@ -134,16 +134,19 @@ input[type=button] {
 	font-weight: 200;
 }
 
-.modern-content {
-	margin: 30%;
-	text-align: center;
-}
-
-.ancient-content {
+.project-content {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-around;
 	text-align: center;
+	height: 100vh;
+}
+
+.modern-content {
+	height: 100vh;
+}
+
+.ancient-content {
 	height: 100vh;
 }
 
@@ -174,7 +177,32 @@ input[type=button] {
 	cursor: pointer;
 }
 
-.visual-card {
+.modern-visual-card {
+	width: 10rem;
+	height: 10rem;
+	border-radius: 0.5rem;
+	box-shadow: 0 0.25rem 0.25rem 0.25rem grey;
+	transform: translateX(10%);
+	z-index: 1;
+}
+
+.modern-visual-card-2 {
+	position: absolute;
+	top: 25%;
+	left: 0; 
+	z-index: 0;
+	transform: translateX(-30%);
+}
+
+.modern-visual-card-3 {
+	position: absolute;
+	top: 55%;
+	left: 0; 
+	z-index: 2;
+	transform: translateX(-30%);
+}
+
+.ancient-visual-card {
 	width: 10rem;
 	height: 10rem;
 	border-radius: 0.5rem;
@@ -183,7 +211,7 @@ input[type=button] {
 	z-index: 1;
 }
 
-.visual-card-2 {
+.ancient-visual-card-2 {
 	position: absolute;
 	top: 25%;
 	left: 0; 
@@ -191,7 +219,7 @@ input[type=button] {
 	transform: translateX(30%);
 }
 
-.visual-card-3 {
+.ancient-visual-card-3 {
 	position: absolute;
 	top: 55%;
 	left: 0; 
