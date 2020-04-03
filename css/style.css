@@ -71,6 +71,7 @@ input[type=button] {
 	font-size: 3rem;
 	font-weight: 400;
 	display: block;
+	animation: move-title 2s;
 }
 
 .header-sub-title {
@@ -79,6 +80,19 @@ input[type=button] {
 	font-size: 2rem;
 	font-weight: 500;
 	display: block;
+	animation: move-sub-title 2s;
+}
+
+@keyframes move-title {
+	0%   {transform: translateX(-10%);}
+	80%   {transform: translateX(2%);}
+	100% {transform: translateX(0);}
+}
+
+@keyframes move-sub-title {
+	0%   {transform: translateX(10%);}
+	80%   {transform: translateX(-2%);}
+	100% {transform: translateX(0);}
 }
 
 .header-btn {
@@ -91,6 +105,10 @@ input[type=button] {
 	margin: 1rem;
 	padding: 0.75rem 2rem 0.75rem 2rem;
 	border-radius: 1rem;
+}
+
+.header-btn:hover {
+	box-shadow: 0 0.5rem 0.5rem 0.5rem grey;
 }
 
 .compartment {
