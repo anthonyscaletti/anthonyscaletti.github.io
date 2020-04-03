@@ -163,16 +163,52 @@ input[type=button] {
 	position: relative;
 }
 
-.project-card {
+.flip-card {
+	position: relative;
 	width: 25rem;
 	height: 20rem;
+	background-color: transparent;
+	perspective: 1000px; 
 	margin: 5%;
+}
+  
+.flip-card-inner {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	transition: transform 0.8s;
+	transform-style: preserve-3d;
+}
+  
+.flip-card:hover .flip-card-inner {
+	transform: rotateY(180deg);
+}
+
+.project-card-front {
+	position: absolute;
+	width: 100%;
+	height: 100%;
 	padding: 1%;
 	border-radius: 0.5rem;
 	box-shadow: 0 0.25rem 0.25rem 0.25rem grey;
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
 }
 
-.project-card:hover {
+.project-card-back {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	padding: 1%;
+	border-radius: 0.5rem;
+	box-shadow: 0 0.25rem 0.25rem 0.25rem grey;
+	transform: rotateY(180deg);
+	-webkit-backface-visibility: hidden; /* Safari */
+	backface-visibility: hidden;
+}
+
+.project-card-front:hover, .project-card-back:hover {
 	box-shadow: 0 0.5rem 0.5rem 0.5rem grey;
 	cursor: pointer;
 }
