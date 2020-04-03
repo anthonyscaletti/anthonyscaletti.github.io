@@ -13,7 +13,7 @@ html {
 	background-color: #fff;
 }
 
-h1, h3, p{
+h1, h3, h4, p{
 	font-family: 'Lato', sans-serif;
 }
 
@@ -113,7 +113,7 @@ input[type=button] {
 
 .compartment {
 	background-color: #fff;
-	margin: 0 15% 5% 15%;
+	margin: 0 10% 5% 10%;
 	padding: 5%;
 	border-radius: 0.5rem;
 }
@@ -144,21 +144,69 @@ input[type=button] {
 	flex-direction: row;
 	justify-content: space-around;
 	text-align: center;
-	height: 50vh;
+	height: 100vh;
 }
 
 .projects {
 	display: flex;
 	flex-direction: column;
 	justify-content: space-around;
-	text-align: center;
 }
 
 .visuals {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
-	text-align: center;
+	position: relative;
+}
+
+.project-card {
+	width: 25rem;
+	height: 20rem;
+	margin: 5%;
+	padding: 1%;
+	border-radius: 0.5rem;
+	box-shadow: 0 0.25rem 0.25rem 0.25rem grey;
+}
+
+.project-card:hover {
+	box-shadow: 0 0.5rem 0.5rem 0.5rem grey;
+	cursor: pointer;
+}
+
+.visual-card {
+	width: 10rem;
+	height: 10rem;
+	border-radius: 0.5rem;
+	box-shadow: 0 0.25rem 0.25rem 0.25rem grey;
+	transform: translateX(-10%);
+	z-index: 1;
+}
+
+.visual-card-2 {
+	position: absolute;
+	top: 25%;
+	left: 0; 
+	z-index: 0;
+	transform: translateX(30%);
+}
+
+.visual-card-3 {
+	position: absolute;
+	top: 55%;
+	left: 0; 
+	z-index: 2;
+	transform: translateX(30%);
+}
+
+.project-card-img {
+	max-width: 100%;
+	max-height: 100%;
+}
+
+.visual-card-img {
+	width: 100%;
+	height: 100%;
 }
 
 .links {
