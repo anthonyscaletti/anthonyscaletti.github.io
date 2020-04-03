@@ -192,8 +192,12 @@ input[type=button] {
 	padding: 1%;
 	border-radius: 0.5rem;
 	box-shadow: 0 0.25rem 0.25rem 0.25rem grey;
-	-webkit-backface-visibility: hidden;
-	backface-visibility: hidden;
+	-webkit-backface-visibility:hidden;
+	-moz-backface-visibility:hidden;
+	-ms-backface-visibility:hidden;
+	-o-backface-visibility:hidden;
+	backface-visibility:hidden;
+	transform: rotateX(0deg);
 }
 
 .project-card-back {
@@ -204,8 +208,11 @@ input[type=button] {
 	border-radius: 0.5rem;
 	box-shadow: 0 0.25rem 0.25rem 0.25rem grey;
 	transform: rotateY(180deg);
-	-webkit-backface-visibility: hidden; /* Safari */
-	backface-visibility: hidden;
+	-webkit-backface-visibility:hidden;
+	-moz-backface-visibility:hidden;
+	-ms-backface-visibility:hidden;
+	-o-backface-visibility:hidden;
+	backface-visibility:hidden;
 }
 
 .project-card-front:hover, .project-card-back:hover {
