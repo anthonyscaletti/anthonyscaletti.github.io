@@ -13,7 +13,7 @@ html {
 	background-color: #fff;
 }
 
-h1, h3, h4, p{
+h1, h3, h4, h5, h6, p{
 	font-family: 'Lato', sans-serif;
 }
 
@@ -166,7 +166,7 @@ input[type=button] {
 .flip-card {
 	position: relative;
 	width: 25rem;
-	height: 20rem;
+	height: 25rem;
 	background-color: transparent;
 	perspective: 1000px; 
 	margin: 5%;
@@ -278,4 +278,14 @@ input[type=button] {
 	flex-direction: row;
 	justify-content: space-around;
 	text-align: center;
+}
+
+.tech-stack {
+	max-width: 80%;
+	max-width: 80%;
+	text-align: left;
+}
+
+.tech-stack-list {
+	margin-left: 3rem;
 }
