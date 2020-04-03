@@ -139,6 +139,28 @@ input[type=button] {
 	text-align: center;
 }
 
+.ancient-content {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	text-align: center;
+	height: 50vh;
+}
+
+.projects {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	text-align: center;
+}
+
+.visuals {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
+}
+
 .links {
 	display: flex;
 	flex-direction: row;
