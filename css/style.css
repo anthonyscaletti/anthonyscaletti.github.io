@@ -169,7 +169,7 @@ input[type=button] {
 	height: 25rem;
 	background-color: transparent;
 	perspective: 1000px; 
-	margin: 5%;
+	margin-bottom: 5%;
 }
   
 .flip-card-inner {
