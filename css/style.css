@@ -189,7 +189,6 @@ input[type=button] {
 	padding: 1%;
 	border-radius: 0.5rem;
 	box-shadow: 0 0.25rem 0.25rem 0.25rem grey;
-	font-size: 2.5vh!important;
 	-webkit-backface-visibility:hidden;
 	-moz-backface-visibility:hidden;
 	-ms-backface-visibility:hidden;
@@ -203,11 +202,17 @@ input[type=button] {
 
 .project-card-back {
 	transform: rotateY(180deg);
+	font-size: 2.5vh!important;
 }
 
 .project-card-front:hover, .project-card-back:hover {
 	box-shadow: 0 0.5rem 0.5rem 0.5rem grey;
 	cursor: pointer;
+}
+
+.project-card-img {
+	width: 100%;
+	height: 100%;
 }
 
 .modern-visual-card, .ancient-visual-card {
@@ -256,11 +261,6 @@ input[type=button] {
 .ancient-visual-card-3 {
 	top: 55%;
 	z-index: 2;
-}
-
-.project-card-img {
-	max-width: 100%;
-	max-height: 100%;
 }
 
 .visual-card-img {
