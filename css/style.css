@@ -202,7 +202,17 @@ input[type=button] {
 
 .project-card-back {
 	transform: rotateY(180deg);
-	font-size: 2.5vh!important;
+	font-size: calc((1.5vh + 1.5vw) / 2)!important;
+}
+
+.project-card-back-title {
+	font-size: calc((2.5vh + 2.5vw) / 2)!important;
+}
+
+@media only screen and (max-height: 430px) {
+	.project-card-back {
+		overflow: scroll;
+	}
 }
 
 .project-card-front:hover, .project-card-back:hover {
