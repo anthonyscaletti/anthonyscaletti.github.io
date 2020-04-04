@@ -142,23 +142,20 @@ input[type=button] {
 	height: 100vh;
 }
 
-.modern-content {
+.modern-content, .ancient-content {
 	height: 100vh;
 }
 
-.ancient-content {
-	height: 100vh;
+.projects, .visuals {
+	display: flex;
+	flex-direction: column;
 }
 
 .projects {
-	display: flex;
-	flex-direction: column;
 	justify-content: space-around;
 }
 
 .visuals {
-	display: flex;
-	flex-direction: column;
 	justify-content: center;
 	position: relative;
 }
@@ -185,7 +182,7 @@ input[type=button] {
 	transform: rotateY(180deg);
 }
 
-.project-card-front {
+.project-card-front, .project-card-back {
 	position: absolute;
 	width: 100%;
 	height: 100%;
@@ -197,22 +194,14 @@ input[type=button] {
 	-ms-backface-visibility:hidden;
 	-o-backface-visibility:hidden;
 	backface-visibility:hidden;
+}
+
+.project-card-front {
 	transform: rotateX(0deg);
 }
 
 .project-card-back {
-	position: absolute;
-	width: 100%;
-	height: 100%;
-	padding: 1%;
-	border-radius: 0.5rem;
-	box-shadow: 0 0.25rem 0.25rem 0.25rem grey;
 	transform: rotateY(180deg);
-	-webkit-backface-visibility:hidden;
-	-moz-backface-visibility:hidden;
-	-ms-backface-visibility:hidden;
-	-o-backface-visibility:hidden;
-	backface-visibility:hidden;
 }
 
 .project-card-front:hover, .project-card-back:hover {
@@ -220,54 +209,52 @@ input[type=button] {
 	cursor: pointer;
 }
 
-.modern-visual-card {
+.modern-visual-card, .ancient-visual-card {
 	width: 10rem;
 	height: 10rem;
 	border-radius: 0.5rem;
 	box-shadow: 0 0.25rem 0.25rem 0.25rem grey;
-	transform: translateX(10%);
 	z-index: 1;
 }
 
-.modern-visual-card-2 {
-	position: absolute;
-	top: 25%;
-	left: 0; 
-	z-index: 0;
-	transform: translateX(-30%);
-}
-
-.modern-visual-card-3 {
-	position: absolute;
-	top: 55%;
-	left: 0; 
-	z-index: 2;
-	transform: translateX(-30%);
+.modern-visual-card {
+	transform: translateX(10%);
 }
 
 .ancient-visual-card {
-	width: 10rem;
-	height: 10rem;
-	border-radius: 0.5rem;
-	box-shadow: 0 0.25rem 0.25rem 0.25rem grey;
 	transform: translateX(-10%);
-	z-index: 1;
 }
 
-.ancient-visual-card-2 {
+.modern-visual-card-2, .modern-visual-card-3 {
 	position: absolute;
-	top: 25%;
 	left: 0; 
+	transform: translateX(-30%);
+} 
+
+.modern-visual-card-2 {
+	top: 25%;
 	z-index: 0;
+}
+
+.modern-visual-card-3 {
+	top: 55%;
+	z-index: 2;
+}
+
+.ancient-visual-card-2, .ancient-visual-card-3 {
+	position: absolute;
+	left: 0; 
 	transform: translateX(30%);
+} 
+
+.ancient-visual-card-2 {
+	top: 25%;
+	z-index: 0;
 }
 
 .ancient-visual-card-3 {
-	position: absolute;
 	top: 55%;
-	left: 0; 
 	z-index: 2;
-	transform: translateX(30%);
 }
 
 .project-card-img {
@@ -285,14 +272,4 @@ input[type=button] {
 	flex-direction: row;
 	justify-content: space-around;
 	text-align: center;
-}
-
-.tech-stack {
-	max-width: 80%;
-	max-width: 80%;
-	text-align: left;
-}
-
-.tech-stack-list {
-	margin-left: 3rem;
 }
