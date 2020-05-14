@@ -7,6 +7,10 @@ $(document).ready(function(){
         window.open('https://covid19-global-tracker.herokuapp.com/', '_blank');
     });
 
+    $("#janus-back").click(function(){
+        window.open('https://janus-io.herokuapp.com/', '_blank');
+    });
+
     $("#martis-hastam-back").click(function(){
         window.open('https://martis-hastam.herokuapp.com/', '_blank');
     });
